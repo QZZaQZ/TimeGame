@@ -1,0 +1,232 @@
+body {
+	background-image: url(Images_GameTime/13.jpg);
+}
+
+
+/*GameTimeMenu*/
+
+.GameTime {
+    color: #150050;
+   font-size: 26px;
+   text-decoration: none;
+   transition: transform 0.9s;
+   margin-right: 300px;
+   
+
+}
+.GameTime:hover {
+	color: #311D7A;
+}
+
+.welcome {
+	position: absolute;
+	left: 480px;
+	top: 50px;
+	font-size: 24px;
+	color: #150050;;
+}
+
+/*Game*/
+
+.Game {
+	margin-right: 50px;
+	font-size: 26px;
+	text-decoration: none;
+	color: #150050;
+	position: relative;
+}
+.Game:hover {
+	color: #311D7A;
+}
+
+.Game:hover:before {
+	transform: scalex(1);
+     transition: transform 0.76s;
+}
+
+.Game:before {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #311D7A;
+	position: absolute;
+	left: 0; bottom: -5px;
+	transform: scalex(0);
+	transform-origin: left;
+}
+/*Info_TheAll*/
+.All {
+	font-size: 26px;
+	color: #150050;
+	text-decoration: none;
+	position: relative;
+}
+.All:hover {
+	color: #311D7A;
+}
+
+.All:hover:before {
+	transform: scalex(1);
+     transition: transform 0.76s;
+}
+
+
+.All:before {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #311D7A;
+	position: absolute;
+	left: 0; bottom: -5px;
+	transform: scalex(0);
+	transform-origin: left;
+}
+
+/*WhiteCube*/
+
+.WhiteCube {
+	z-index: -1;
+	position: absolute;
+	left: 5px;
+	top: 50px;
+	opacity: 0.7;
+    	
+    	
+}
+
+/*BeastCode*/
+
+.BeastCode {
+	position: absolute;
+	top: 100px;
+	font-size: 18px;
+	color: #150050;
+	text-decoration: none;
+}
+
+.BeastCode2 {
+	position: absolute;
+	top: 60px;
+	left: 360px;
+	color: #150050;
+	font-size: 32px;
+}
+
+.BeastCode3 {
+	position: absolute;
+	left: 400px;
+	top: 125px;
+	font-size: 17px;
+}
+/*BeastWedSite*/
+
+.BeastWebSite {
+	position: absolute;
+	top: 65px;
+	text-decoration: none;
+	color: #150050;
+	font-size: 18px;
+}
+.BeastWebSite2 {
+	position: absolute;
+	top: 60px;
+	left: 360px;
+	color: #150050;
+	font-size: 32px;
+
+}
+.BeastWebSite3 {
+	position: absolute;
+	left: 400px;
+	top: 125px;
+	font-size: 17px;
+}
+.AlltheSite {
+	text-decoration: none;
+}
+
+/*MyGames*/
+
+.MyGames {
+	position: absolute;
+	right: 1220px;
+	top: 55px;
+	font-size: 35px;
+	color: #150050;
+}
+.eternal_ninja_travel {
+	position: absolute;
+	top: 100px;
+	left: 25px;
+	text-decoration: none;
+	color: #150050;
+	font-size: 18px;
+
+}
+/*Eternal Einja Travel*/
+
+.THEGAME {
+	position: absolute;
+	left: 600px	;
+	top: 60px;
+	font-size: 24px;
+	color: #150050;
+}
+/*Ganre*/
+
+.Genre {
+	position: absolute;
+	left: 250px;
+	top: 200px;
+    font-size: 18px;
+    color: #150050;
+}
+/*Button*/
+.Button {
+	position: absolute;
+	top: 250px;
+	left: 240px	;
+	text-decoration: none;
+	padding: 14px 35px;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+	font-size: 17px;
+	transition: .5s;
+	
+}
+
+.Button:hover {
+	background-color: blue;
+}
+
+
+/*Icon*/
+
+.Icon {
+	position: absolute;
+	top: 100px;
+	left: 240px;
+
+}
+
+/*InfoSAIT*/
+
+.InfoSAIT {
+	position: absolute;
+	top: 120px;
+	left: 500px;
+	font-size: 19px;
+	color: #150050;
+
+}
+
+/*InfoGame*/
+
+.InfoGame {
+	position: absolute;
+	top: 320px;
+	left: 245px;
+	color: #150050;
+	font-size: 18px;
+}
